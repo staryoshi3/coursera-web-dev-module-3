@@ -2,6 +2,10 @@ body {
 	font-size: 16px;
 }
 
+#header {
+	margin-left: 25px;
+}
+
 #header-nav {
 	border-radius: 0;
 	border: 0;
@@ -17,4 +21,15 @@ body {
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: .75;
+}
+
+#nav-list li {
+	background-color: #E0FFFF;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.chicken {
+	background-color: #E0FFFF;
+	height: 1000px;
 }

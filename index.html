@@ -10,8 +10,8 @@
 </head>
 <body>
 	<header>
-		<nav id="header-nav" class="navbar navbar-default">
-			<div class="container">
+		<nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
+			<div id="header" class="container">
 				<div class="navbar-header">
 					<div class="navbar-brand pull-left">
 						<h1>Food, LLC</h1>
@@ -25,7 +25,7 @@
 				</div>
 
 				<div id="collapsable-nav" class="collapse navbar-collapse">
-					<ul id="nav-list" class="nav navbar-nav navbar-right">
+					<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
 						<li>Chicken</li>
 						<li>Beef</li>
 						<li>Sushi</li>
@@ -34,10 +34,17 @@
 			</div><!-- .container -->
 		</nav><!-- #header-nav -->
 	</header>
+	<h2 class="text-center">Our Menu</h2>
+	<div class="container">
+		<div clas="row">
+			<div class="chicken col-xs-12">
+				<h3 class="text-center">Chicken<h3>
+			</div>
+		</h3>
+	</div>
 
-
-		<!-- JQuery (Bootstrap JS plugins depend on it) -->
-		<script src="js/jquery-3.1.1.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+	<!-- JQuery (Bootstrap JS plugins depend on it) -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
